@@ -7,27 +7,25 @@
 
 // SOLUZIONE
 // definisco e assegno una variabile nome
-let nome = "Laura";
-
 // definisco e assegno una variabile numero
-let numero = 3;
-
 // definisco e assegno una variabile sesso
-let sesso = 'f';
+let nome = "Laura";
+let numero = 3;
+let sesso = 'm';
+let frase;
 
-// scrivo un ciclo for che conti da 1 a numero
+// se il sesso è maschile
+if(sesso == 'm') {
+    // preparo la frase M
+    frase = "Benvenuto " + nome;
+}
+// altrimenti
+else {
+    //      preparo la frase F
+    frase = "Benvenuta " + nome;
+}
+
+// scrivo la frase
 for(i=1; i<=numero; i++) {
-    // se il sesso è maschile
-    if(sesso == 'm') {
-    //      preparo una frase
-        frase = "Benvenuto " + nome;
-    }
-    // altrimenti
-    else {
-    //      preparo l'altra
-        frase = "Benvenuta " + nome;
-    }
-
-    // scrivo la frase
     console.log(frase);
 }

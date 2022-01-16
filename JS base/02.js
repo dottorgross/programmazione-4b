@@ -1,18 +1,19 @@
-// Scrivere un programma che, dato il nome di una persona,
-// la saluti con una frase.
+// definizione di variabili
 
-// SOLUZIONE
-// definisco una variabile nome
 let nome;
+let età;
 
-// le assegno come valore una stringa con un nome a scelta
-nome = "Jessica";
+// assegnazione di un valore alle variabili
 
-// definisco una variabile frase
-let frase;
+nome = "Marianna";
+età = 12;
 
-// compongo la frase inserendo anche il nome
-frase = "Buongiorno " + nome + ", è un piacere averti qui.";
+console.log(nome);
+console.log(età);
 
-// scrivo nella console la frase
+// compongo una frase mettendola in una nuova variabile
+// nota: dichiaro (definisco) e assegno la variabile nella stessa riga
+
+let frase = "La signora " + nome + " ha " + età + " anni.";
+
 console.log(frase);

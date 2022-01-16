@@ -1,17 +1,9 @@
-// scrivere un programma che, dato il nome di una persona
-// e un numero intero
-// scriva il nome di quella persona tante volte quanto
-// è specificato dal numero
+/*scrivere un programma che, dato il nome di una persona
+e un numero intero
+scriva il nome di quella persona tante volte quanto
+è specificato dal numero
+inizia definendo le variabili nome e numero... poi crea un ciclo for dentro al quale fai scrivere il nome*/
 
-// SOLUZIONE
-// definisco e assegno una variabile nome
-let nome = "Laura";
-
-// definisco e assegno una variabile numero
-let numero = 3;
-
-// scrivo un ciclo for che conti da 1 a numero
-for(i=1; i<=numero; i++) {
-    // ad ogni ripetizione scrivo il nome
-    console.log(nome);
+for(let i=1; i<=10; i++) {
+    console.log(i);
 }
